@@ -41,7 +41,7 @@ namespace ProjetoExtensao2022Bimestre1
             }else if(item == "Aluno")
             {
                 idItem = 2;
-            }else if(item == "Infra-Estrutura")
+            }else if(item == "Infraestrutura")
             {
                 idItem = 3;
             }
@@ -59,7 +59,7 @@ namespace ProjetoExtensao2022Bimestre1
                 conexao.Close();
             }catch(Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                MessageBox.Show("Ocorreu um erro! " + ex.ToString());
             }
         }
 
@@ -104,6 +104,41 @@ namespace ProjetoExtensao2022Bimestre1
         }
 
         private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int ra = Int32.Parse(textBox4.Text);
+            String nome = (textBox5.Text);
+            String db = "Server=localhost;Port=5432;Database=ProjetoPACEX;" +
+                "User Id=postgres;Password=123;";
+            NpgsqlConnection conexao = new NpgsqlConnection(db);
+            String comando = "INSERT INTO Pessoa VALUES (" + ra +",' " + nome + "'" + ")";
+            try
+            {
+                NpgsqlCommand command = new NpgsqlCommand(comando, conexao);
+                conexao.Open();
+                command.ExecuteNonQuery();
+                conexao.Close();
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Ocorreu um erro! " + ex.ToString());
+            }
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

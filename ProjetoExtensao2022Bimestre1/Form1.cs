@@ -49,6 +49,7 @@ namespace ProjetoExtensao2022Bimestre1
                 conexao.Open();
                 command.ExecuteNonQuery();
                 conexao.Close();
+                MessageBox.Show("Feeback enviado com sucesso!");
             }catch(Exception ex)
             {
                 MessageBox.Show("Ocorreu um erro! " + ex.ToString());
@@ -74,7 +75,9 @@ namespace ProjetoExtensao2022Bimestre1
                 conexao.Open();
                 command.ExecuteNonQuery();
                 conexao.Close();
-            }catch(Exception ex)
+                MessageBox.Show("Conta criada com sucesso!");
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show("Ocorreu um erro! " + ex.ToString());
             }

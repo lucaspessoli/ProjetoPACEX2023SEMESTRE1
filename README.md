@@ -61,3 +61,12 @@ SELECT * from Itens_avaliado
 
 ```
 
+<h1 align="center">CRONOGRAMA ESTILO KANBAM</h1>
+
+![image](https://github.com/lucaspessoli/ProjetoPACEX2023SEMESTRE1/assets/115120374/8a6fd979-10f9-40dd-8ca5-6e214ae9fa45)
+
+<h1 align="center">DIAGRAMADE DE RELACIONAMENTO ENTIDADE</h1>
+
+![image](https://github.com/lucaspessoli/ProjetoPACEX2023SEMESTRE1/assets/115120374/b9e2150b-f40e-49b3-9f91-00c02e039c88)
+
+

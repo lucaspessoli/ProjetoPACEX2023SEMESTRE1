@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Media;
 using System.Windows.Forms;
 using Npgsql;
 
@@ -41,7 +43,7 @@ namespace ProjetoExtensao2022Bimestre1
             {
                 idItem = 4;
             }
-            String comando = "INSERT INTO Avaliacao (ra_pessoa,infra , nota, comentario)" +
+            String comando = "INSERT INTO Avaliacao (ra_pessoa,item , nota, comentario)" +
                 " VALUES (" + ra +  ", (SELECT descricao FROM Itens_avaliado WHERE id_item = " + idItem + ")," + nota + ",'" + comentario + "' );";
             try
             {

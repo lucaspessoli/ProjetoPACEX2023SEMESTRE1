@@ -1,0 +1,10 @@
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\bin\Debug\ProjetoExtensao2022Bimestre1.exe.config
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\bin\Debug\ProjetoExtensao2022Bimestre1.exe
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\bin\Debug\ProjetoExtensao2022Bimestre1.pdb
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.Properties.Resources.resources
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.csproj.GenerateResource.cache
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.exe
+C:\Users\lucas\source\repos\ProjetoExtensao2022Bimestre1\ProjetoExtensao2022Bimestre1\obj\Debug\ProjetoExtensao2022Bimestre1.pdb

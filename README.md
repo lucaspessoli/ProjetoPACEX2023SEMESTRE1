@@ -53,9 +53,6 @@ INSERT INTO Itens_avaliado (descricao) VALUES ('Aluno');
 INSERT INTO Itens_avaliado (descricao) VALUES ('Infraestrutura');
 INSERT INTO Itens_avaliado (descricao) VALUES ('Funcionário');
 
-DROP TABLE Avaliacao
-
-
 SELECT * from Pessoa
 
 SELECT * from Avaliacao

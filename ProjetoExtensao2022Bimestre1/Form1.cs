@@ -13,16 +13,8 @@ namespace ProjetoExtensao2022Bimestre1
             comboBox1.Items.Add("Aluno");
             comboBox1.Items.Add("Infraestrutura");
             comboBox1.Items.Add("Funcionário");
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
+            MessageBox.Show("O Sistema de Feedback \"Cavaleiros do Zodíaco\" é um projeto desenvolvido em C# e PostgreSQL com o objetivo de facilitar o processo de coleta e gerenciamento de feedback. O sistema oferece uma plataforma intuitiva e eficiente para que os usuários possam enviar feedback sobre diversos temas, como professores, alunos, infraestrutura, funcionários e muito mais.\r\n\r\nCom o \"Cavaleiros do Zodíaco\", os usuários têm a oportunidade de expressar suas opiniões e ideias de forma fácil e rápida. O sistema fornece um formulário de feedback abrangente, onde os usuários podem escolher o assunto, atribuir uma nota e fazer comentários sobre o tema." +
+                "\n\nAo escolher o nome \"Cavaleiros do Zodíaco\" para o nosso sistema de feedback, buscamos incorporar os valores e as características lendárias e inspiradoras dos famosos personagens. Transmitindo esses valores e estimulando um ambiente positivo, colaborativo e de constante crescimento, onde cada colaborador possa se tornar um verdadeiro herói no cumprimento de suas responsabilidades e no alcance de seus objetivos profissionais.\r\n");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -68,51 +60,6 @@ namespace ProjetoExtensao2022Bimestre1
             string itemSelecionado = comboBox1.SelectedItem.ToString();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             int ra = Int32.Parse(textBox4.Text);
@@ -131,16 +78,6 @@ namespace ProjetoExtensao2022Bimestre1
             {
                 MessageBox.Show("Ocorreu um erro! " + ex.ToString());
             }
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

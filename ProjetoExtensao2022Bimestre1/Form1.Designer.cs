@@ -58,7 +58,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(152, 20);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -66,7 +65,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(152, 20);
             this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button1
             // 
@@ -100,7 +98,6 @@
             this.label1.Size = new System.Drawing.Size(157, 18);
             this.label1.TabIndex = 4;
             this.label1.Text = "Item para avaliar:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -113,7 +110,6 @@
             this.label2.Size = new System.Drawing.Size(73, 18);
             this.label2.TabIndex = 5;
             this.label2.Text = "Seu RA:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -126,7 +122,6 @@
             this.label3.Size = new System.Drawing.Size(88, 18);
             this.label3.TabIndex = 6;
             this.label3.Text = "Sua nota:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -135,7 +130,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(152, 20);
             this.textBox3.TabIndex = 7;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
@@ -148,7 +142,6 @@
             this.label4.Size = new System.Drawing.Size(142, 18);
             this.label4.TabIndex = 8;
             this.label4.Text = "Seu comentário:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label9
             // 
@@ -172,7 +165,6 @@
             this.label5.Size = new System.Drawing.Size(269, 26);
             this.label5.TabIndex = 0;
             this.label5.Text = "NÃO TEM UMA CONTA?";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -184,7 +176,6 @@
             this.label6.Size = new System.Drawing.Size(179, 20);
             this.label6.TabIndex = 1;
             this.label6.Text = "CRIE AGORA MESMO!";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox4
             // 
@@ -192,7 +183,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(152, 20);
             this.textBox4.TabIndex = 10;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label7
             // 
@@ -212,7 +202,6 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(152, 20);
             this.textBox5.TabIndex = 11;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label8
             // 
@@ -225,7 +214,6 @@
             this.label8.Size = new System.Drawing.Size(96, 18);
             this.label8.TabIndex = 12;
             this.label8.Text = "Seu nome:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button2
             // 
@@ -273,18 +261,17 @@
             this.panel1.Controls.Add(this.textBox4);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Location = new System.Drawing.Point(861, 0);
+            this.panel1.Location = new System.Drawing.Point(864, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(313, 579);
             this.panel1.TabIndex = 9;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1173, 573);
             this.Controls.Add(this.label9);

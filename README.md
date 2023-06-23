@@ -3,8 +3,8 @@
 ---
 
 <h2>Participantes:</h2>
-<h4>Lucas Pessoli RA: 00229058</h4>
-<h4>Renan Augusto Mendes RA: 00234708</h4>
-<h4>Victor Fagundes RA: 00239823</h4>
-<h4>Nicolas Lorencini RA: 00238714</h4>
-<h4>Erick Teixeira RA: 00234708</h4>
+<h4>LUCAS PESSOLI - RA: 00229058</h4>
+<h4>RENAN AUGUSTO MENDES CARLOS - RA: 00234708</h4>
+<h4>VICTOR FAGUNDES RAMOS - RA: 00239823</h4>
+<h4>NICOLAS LEANDRO - RA: 00238714</h4>
+<h4>ERICK DANIEL TEIXEIRA VIER - RA: 00235908</h4>
